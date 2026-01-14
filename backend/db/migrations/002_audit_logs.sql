@@ -14,3 +14,4 @@ CREATE INDEX IF NOT EXISTS idx_audit_logs_user_created ON audit_logs(user_id, cr
 CREATE INDEX IF NOT EXISTS idx_audit_logs_action_created ON audit_logs(action, created_at DESC);
 
 
+
